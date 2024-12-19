@@ -159,3 +159,27 @@ This method cancels all pending invocation and registers the Job completely new 
 
 job.nextInvocation()
 This method returns a Date object for the planned next Invocation for this Job. If no invocation is planned the method returns null.
+
+
+
+/*
+const second_job = schedule.scheduleJob("* * * * * *",()=>{
+
+    console.log("running job every second, first star is optional ")
+});
+*/
+/*
+
+const minute_job = schedule.scheduleJob("21 * * * *",()=>{
+
+    console.log("running job every 21 min , first star is optional ")
+});
+
+*/
+
+const rule = new schedule.RecurrenceRule();
+
+const minute_job = schedule.scheduleJob("21 * * * *",()=>{
+
+    console.log("running job every 21 min , first star is optional ")
+});
