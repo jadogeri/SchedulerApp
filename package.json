@@ -1,0 +1,19 @@
+{
+  "name": "schedulerapp",
+  "version": "1.0.0",
+  "description": "Node application to schedule daily job which calls my deployed web services and API's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadogeri/SchedulerApp.git"
+  },
+  "author": "Joseph Adogeri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadogeri/SchedulerApp/issues"
+  },
+  "homepage": "https://github.com/jadogeri/SchedulerApp#readme"
+}
